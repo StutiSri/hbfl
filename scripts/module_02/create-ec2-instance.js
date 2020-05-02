@@ -70,7 +70,7 @@ function createKeyPair (keyName) {
 function createInstance (sgName, keyName) {
   console.log("create instance")
   const params = {
-    ImageId: 'ami-0323c3dd2da7fb37d',
+    ImageId: 'ami-003bca6d67e11b3c7',
     InstanceType: 't2.micro',
     KeyName: keyName,
     MaxCount: 1,
