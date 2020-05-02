@@ -6,8 +6,8 @@ AWS.config.update({ region: 'us-east-1' })
 // Declare local variables
 const autoScaling = new AWS.AutoScaling()
 
-const lcName = 'hamsterLC_ss'
-const roleName = 'hamsterLCRole_ss'
+const lcName = 'hamsterLC_ss_1'
+const roleName = 'hamsterLCRole_ss_1'
 const sgName = 'hamster_ss_sg_3'
 const keyName = 'hamster_ss_key_3'
 
@@ -19,7 +19,7 @@ function createLaunchConfiguration (lcName, profileArn) {
   console.log("profileArn: " + profileArn)
   const params = {
     IamInstanceProfile: profileArn,
-    ImageId: 'ami-088f679fa615c547c',
+    ImageId: 'ami-003bca6d67e11b3c7',
     InstanceType: 't2.micro',
     LaunchConfigurationName: lcName,
     KeyName: keyName,
