@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk')
 
 const RACE_QUEUE = 'race-result-queue'
-const HAMSTERS_TABLE = 'hamsters'
+const HAMSTERS_TABLE = 'hamsters_ss'
 
 AWS.config.update({ region: 'us-east-1' })
 

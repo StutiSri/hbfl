@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk')
 
-const RACES_TABLE = 'races'
+const RACES_TABLE = 'races_ss'
 
 AWS.config.update({ region: '/* TODO: Add your region */' })
 
